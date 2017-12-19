@@ -1,0 +1,35 @@
+{
+  "name": "glsl-optimizer",
+  "version": "0.0.1",
+  "description": "CLI tool for optimizing GLSL.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js"
+  },
+  "bin": {
+    "glsl-optimizer": "./bin/glsl-optimizer.js"
+  },
+  "author": "Tim van Scherpenzeel",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "bluebird": "^3.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimvanScherpenzeel/glsl-optimizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TimvanScherpenzeel/glsl-optimizer/issues"
+  },
+  "homepage": "https://github.com/TimvanScherpenzeel/glsl-optimizer#readme"
+}
