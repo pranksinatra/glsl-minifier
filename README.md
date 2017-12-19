@@ -12,6 +12,12 @@ CLI tool for optimizing GLSL.
 $ npm install -g --save glsl-optimizer
 ```
 
+## Example
+
+```sh
+$ node ./bin/glsl-optimizer -i ./example/example.vert -o ./example/example.min.vert
+```
+
 ## Flags
 
 ### Required
