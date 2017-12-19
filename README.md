@@ -1,6 +1,5 @@
 # GLSL optimizer
 
-[![npm version](https://badge.fury.io/js/glsl-optimizer.svg)](https://badge.fury.io/js/glsl-optimizer)
 [![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-optimizer.svg)](https://david-dm.org/timvanscherpenzeel/glsl-optimizer)
 [![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-optimizer/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-optimizer#info=devDependencies)
 
@@ -21,8 +20,8 @@ $ node ./bin/glsl-optimizer -i ./example/example.vert -o ./example/example.min.v
 ## Flags
 
 ### Required
-	-i, --input [example: ./example/example.png] [required]
-	-o, --output [example: ./example/example.dds] [required]
+	-i, --input [example: ./example/example.vert] [required]
+	-o, --output [example: ./example/example.min.vert] [required]
 
 ### Tool flags
 	-f, --flags ["flag value" "flag value"] [not required]
