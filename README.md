@@ -5,12 +5,6 @@
 
 CLI tool for optimizing GLSL.
 
-## Installation
-
-```sh
-$ npm install -g --save glsl-optimizer
-```
-
 ## Example
 
 ```sh
