@@ -5,6 +5,12 @@
 
 CLI tool for optimizing GLSL.
 
+## Installation
+
+Make sure you have [Node.js](http://nodejs.org/) installed.
+
+	npm install
+
 ## Example
 
 ```sh
