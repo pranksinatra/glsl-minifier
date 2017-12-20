@@ -11,6 +11,10 @@ CLI tool for optimizing GLSL.
 $ node ./bin/glsl-optimizer.js -i ./example/example.frag -o ./example/example.min.frag
 ```
 
+```sh
+$ node ./bin/glsl-optimizer.js -i ./example/example.vert -o ./example/example.min.vert
+```
+
 ## Flags
 
 ### Default
