@@ -1,1 +1,1 @@
-uniform vec2 resolution;uniform sampler2D texture;void main(){vec4 a;a=texture2D(texture,(gl_FragCoord.xy/resolution));if((a.x==1000.0)){discard;}vec4 b;b.w=1.0;b.xyz=vec3((1.0-(sqrt(a.x)/8.0)));gl_FragColor=b;}
+uniform highp vec2 resolution;uniform sampler2D texture;void main(){highp vec2 a;a=(gl_FragCoord.xy/resolution);lowp vec4 b;b=texture2D(texture,a);if((b.x==1000.0)){discard;}lowp vec4 c;c.w=1.0;c.xyz=vec3((1.0-(sqrt(b.x)/8.0)));gl_FragColor=c;}
