@@ -12,8 +12,7 @@
   "author": "Tim van Scherpenzeel",
   "license": "GPL-3.0",
   "dependencies": {
-    "argparse": "^1.0.9",
-    "bluebird": "^3.5.1"
+    "argparse": "^1.0.9"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
