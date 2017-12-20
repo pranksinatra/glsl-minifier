@@ -1,5 +1,5 @@
 {
-  "name": "glsl-optimizer",
+  "name": "glsl-minifier",
   "version": "0.0.1",
   "description": "CLI tool for optimizing GLSL.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "lint": "eslint lib/**/*.js"
   },
   "bin": {
-    "glsl-optimizer": "./bin/glsl-optimizer.js"
+    "glsl-minifier": "./bin/glsl-minifier.js"
   },
   "author": "Tim van Scherpenzeel",
   "license": "GPL-3.0",
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimvanScherpenzeel/glsl-optimizer.git"
+    "url": "git+https://github.com/TimvanScherpenzeel/glsl-minifier.git"
   },
   "bugs": {
-    "url": "https://github.com/TimvanScherpenzeel/glsl-optimizer/issues"
+    "url": "https://github.com/TimvanScherpenzeel/glsl-minifier/issues"
   },
-  "homepage": "https://github.com/TimvanScherpenzeel/glsl-optimizer#readme"
+  "homepage": "https://github.com/TimvanScherpenzeel/glsl-minifier#readme"
 }

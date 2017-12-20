@@ -1,9 +1,9 @@
-# GLSL optimizer
+# GLSL minifier
 
-[![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-optimizer.svg)](https://david-dm.org/timvanscherpenzeel/glsl-optimizer)
-[![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-optimizer/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-optimizer#info=devDependencies)
+[![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier)
+[![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier#info=devDependencies)
 
-CLI tool for optimizing GLSL.
+CLI tool for optimizing and minifying GLSL.
 
 ## Installation
 
@@ -14,11 +14,11 @@ Make sure you have [Node.js](http://nodejs.org/) installed.
 ## Example
 
 ```sh
-$ node ./bin/glsl-optimizer.js -i ./example/example.frag -o ./example/example.min.frag
+$ node ./bin/glsl-minifier.js -i ./example/example.frag -o ./example/example.min.frag
 ```
 
 ```sh
-$ node ./bin/glsl-optimizer.js -i ./example/example.vert -o ./example/example.min.vert
+$ node ./bin/glsl-minifier.js -i ./example/example.vert -o ./example/example.min.vert
 ```
 
 ## Flags
@@ -37,6 +37,6 @@ $ node ./bin/glsl-optimizer.js -i ./example/example.vert -o ./example/example.mi
 
 ## Licence
 
-My work is released under [GNU General Public License v3.0](https://raw.githubusercontent.com/TimvanScherpenzeel/glsl-optimizer/master/LICENSE).
+My work is released under [GNU General Public License v3.0](https://raw.githubusercontent.com/TimvanScherpenzeel/glsl-minifier/master/LICENSE).
 
 This repository distributes the compiled WASM binary from Joshua Koo's Emscripten port [zz85/glsl-optimizer](https://github.com/zz85/glsl-optimizer) of the original [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) source. This in itself is based on the GLSL optimizer of [Mesa](https://cgit.freedesktop.org/mesa/mesa/log/).
