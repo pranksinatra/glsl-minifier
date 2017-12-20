@@ -16,7 +16,8 @@
     "glsl-deparser": "^1.0.0",
     "glsl-min-stream": "^1.0.0",
     "glsl-parser": "^2.0.0",
-    "glsl-tokenizer": "^2.1.2"
+    "glsl-tokenizer": "^2.1.2",
+    "string-to-stream": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
