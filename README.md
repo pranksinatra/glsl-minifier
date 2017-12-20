@@ -8,10 +8,6 @@ CLI tool for optimizing and minifying GLSL.
 
 ## Installation
 
-Make sure you have [Node.js](http://nodejs.org/) installed.
-
-	npm install
-
 ```sh
 $ npm install -g --save glsl-optimizer
 ```
