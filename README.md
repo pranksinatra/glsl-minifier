@@ -9,7 +9,7 @@ CLI tool for optimizing and minifying GLSL.
 ## Installation
 
 ```sh
-$ npm install -g --save glsl-optimizer
+$ npm install -g --save glsl-minifier
 ```
 
 ## Example
