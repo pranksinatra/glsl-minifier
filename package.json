@@ -1,7 +1,7 @@
 {
   "name": "glsl-minifier",
   "version": "0.0.3",
-  "description": "CLI tool for optimizing GLSL.",
+  "description": "CLI tool for optimizing and minifying GLSL.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib/**/*.js"
