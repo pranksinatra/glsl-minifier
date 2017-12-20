@@ -4,7 +4,7 @@
 [![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier)
 [![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier#info=devDependencies)
 
-CLI tool for optimizing and minifying GLSL.
+CLI tool for optimizing and minifying GLSL using [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) and [stackgl/glsl-min-stream](https://github.com/stackgl/glsl-min-stream).
 
 ## Installation
 
