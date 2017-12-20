@@ -1,5 +1,6 @@
 # GLSL minifier
 
+[![npm version](https://badge.fury.io/js/glsl-minifier.svg)](https://badge.fury.io/js/glsl-minifier)
 [![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier)
 [![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier#info=devDependencies)
 
@@ -10,6 +11,10 @@ CLI tool for optimizing and minifying GLSL.
 Make sure you have [Node.js](http://nodejs.org/) installed.
 
 	npm install
+
+```sh
+$ npm install -g --save glsl-optimizer
+```
 
 ## Example
 
