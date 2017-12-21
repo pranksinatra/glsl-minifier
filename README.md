@@ -4,7 +4,7 @@
 [![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier)
 [![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier#info=devDependencies)
 
-CLI tool for optimizing and minifying GLSL using [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) and [stackgl/glsl-min-stream](https://github.com/stackgl/glsl-min-stream).
+CLI tool for optimizing and minifying GLSL using [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) and [stackgl/glsl-min-stream](https://github.com/stackgl/glsl-min-stream). Optimizations include function inlining, dead code removal, copy propagation, constant folding, constant propagation, arithmetic optimizations and so on. Minifying includes variable rewriting and whitespace trimming.
 
 ## Installation
 
@@ -16,6 +16,40 @@ $ npm install -g --save glsl-minifier
 
 ```sh
 $ node ./bin/glsl-minifier.js -i ./example/example.frag -o ./example/example.min.frag
+```
+
+```
+#define SPREAD 8.00
+#define MAX_DIR_LIGHTS 0
+#define MAX_POINT_LIGHTS 0
+#define MAX_SPOT_LIGHTS 0
+#define MAX_HEMI_LIGHTS 0
+#define MAX_SHADOWS 0
+#define GAMMA_FACTOR 2
+
+uniform mat4 viewMatrix;
+uniform vec3 cameraPosition;
+
+uniform vec2 resolution;
+uniform float time;
+uniform sampler2D texture;
+
+void main() {
+  vec2 uv = gl_FragCoord.xy / resolution.xy;
+
+  float v = texture2D( texture, uv ).x;
+
+  if (v == 1000.) discard;
+  v = sqrt(v);
+
+  gl_FragColor = vec4( vec3( 1. - v / SPREAD ), 1.0 );
+}
+```
+
+Into
+
+```
+uniform highp vec2 resolution;uniform sampler2D texture;void main(){highp vec2 a;a=(gl_FragCoord.xy/resolution);lowp vec4 b;b=texture2D(texture,a);if((b.x==1000.0)){discard;}lowp vec4 c;c.w=1.0;c.xyz=vec3((1.0-(sqrt(b.x)/8.0)));gl_FragColor=c;}
 ```
 
 ```sh
