@@ -70,6 +70,6 @@ uniform highp vec2 resolution;uniform sampler2D texture;void main(){highp vec2 a
 
 ## Licence
 
-My work is released under [GNU General Public License v3.0](https://raw.githubusercontent.com/TimvanScherpenzeel/glsl-minifier/master/LICENSE).
+My work is released under the [MIT license](https://raw.githubusercontent.com/TimvanScherpenzeel/glsl-minifier/master/LICENSE).
 
 This repository distributes the compiled ASM.js file from Joshua Koo's Emscripten port [zz85/glsl-optimizer](https://github.com/zz85/glsl-optimizer) of the original [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) source. This in itself is based on the GLSL optimizer of [Mesa](https://cgit.freedesktop.org/mesa/mesa/log/).
