@@ -1,6 +1,6 @@
 {
   "name": "glsl-minifier",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "CLI tool for optimizing and minifying GLSL.",
   "main": "index.js",
   "scripts": {
