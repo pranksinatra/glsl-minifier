@@ -11,7 +11,7 @@
     "glsl-minifier": "./bin/glsl-minifier.js"
   },
   "author": "Tim van Scherpenzeel",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.9",
     "glsl-deparser": "^1.0.0",
@@ -26,7 +26,6 @@
     "eslint-plugin-import": "^2.8.0"
   },
   "directories": {
-    "doc": "docs",
     "lib": "lib"
   },
   "repository": {
