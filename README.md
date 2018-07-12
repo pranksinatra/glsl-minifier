@@ -1,6 +1,6 @@
 # GLSL minifier
 
-[![npm version](https://badge.fury.io/js/glsl-minifier.svg)](https://badge.fury.io/js/glsl-minifier)
+[![npm version](https://badge.fury.io/js/glsl-minifier.svg)](https://www.npmjs.com/package/glsl-minifier)
 [![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier)
 [![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier#info=devDependencies)
 
@@ -57,16 +57,19 @@ uniform highp vec2 resolution;uniform sampler2D texture;void main(){highp vec2 a
 ## Flags
 
 ### Default
-	-v, --version [print version number]
-	-h, --help [print help]
+
+    -v, --version [print version number]
+    -h, --help [print help]
 
 ### Required
-	-i, --input [example: ./example/example.vert] [required]
-	-o, --output [example: ./example/example.min.vert] [required]
+
+    -i, --input [example: ./example/example.vert] [required]
+    -o, --output [example: ./example/example.min.vert] [required]
 
 ### Optional
-	-sT, --shaderType [vertex / fragment, default: fragment] (vertex shader / fragment shader) [not required]
-	-sV, --shaderVersion [2 / 3, default: 2] (OpenGL ES 2.0 / OpenGL ES 3.0) [not required]
+
+    -sT, --shaderType [vertex / fragment, default: fragment] (vertex shader / fragment shader) [not required]
+    -sV, --shaderVersion [2 / 3, default: 2] (OpenGL ES 2.0 / OpenGL ES 3.0) [not required]
 
 ## Licence
 
