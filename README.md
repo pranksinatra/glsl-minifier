@@ -69,7 +69,7 @@ uniform highp vec2 resolution;uniform sampler2D texture;void main(){highp vec2 a
 ### Optional
 
     -sT, --shaderType [vertex / fragment, default: fragment] (vertex shader / fragment shader) [not required]
-    -sV, --shaderVersion [2 / 3, default: 2] (OpenGL ES 2.0 / OpenGL ES 3.0) [not required]
+    -sV, --shaderVersion [2 / 3, default: 2] (OpenGL ES 2.0 (WebGL1) / OpenGL ES 3.0 (WebGL2)) [not required]
 
 ## Licence
 
