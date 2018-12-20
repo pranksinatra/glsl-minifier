@@ -4,7 +4,7 @@
 [![dependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier)
 [![devDependencies](https://david-dm.org/timvanscherpenzeel/glsl-minifier/dev-status.svg)](https://david-dm.org/timvanscherpenzeel/glsl-minifier#info=devDependencies)
 
-CLI tool for optimizing and minifying GLSL using [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) and [stackgl/glsl-min-stream](https://github.com/stackgl/glsl-min-stream). Optimizations include function inlining, dead code removal, copy propagation, constant folding, constant propagation, arithmetic optimizations and so on. Minifications includes variable rewriting and whitespace trimming.
+CLI tool for optimising and minifying GLSL using [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) and [stackgl/glsl-min-stream](https://github.com/stackgl/glsl-min-stream). Optimisations include function inlining, dead code removal, copy propagation, constant folding, constant propagation, arithmetic optimizations and so on. Minifications includes variable rewriting and whitespace trimming.
 
 ## Installation
 
